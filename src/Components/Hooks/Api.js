@@ -10,7 +10,7 @@ export async function LoadEmployeeData(setData) {
         alert("Something went wrong");
     })
 }
-export async function DelteEmployeeData(id,setData) {
+export async function DeleteEmployeeData(id,setData) {
     const url=Delete_data_by_id+"/"+id;
     axios.delete(url)
     .then((response)=>{

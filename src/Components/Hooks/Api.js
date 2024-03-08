@@ -15,7 +15,7 @@ export async function DelteEmployeeData(id,setData) {
     axios.delete(url)
     .then((response)=>{
         LoadEmployeeData(setData);
-       alert("data deleted successfully");
+       //alert("data deleted successfully");
     })
     .catch(err=>{
        // alert("Something went wrong");

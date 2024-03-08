@@ -1,0 +1,10 @@
+.home{
+    position: fixed;
+    top:10%;
+    height: 80%;
+    width: 100%;
+    background-image: url("C:\Users\vpall\OneDrive\Desktop\ReactProj\payroll\public\home.jpg") ;
+    padding: 20px;
+    flex-direction: column;
+    
+}

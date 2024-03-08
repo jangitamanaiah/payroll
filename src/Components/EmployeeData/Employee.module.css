@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    height: 80%;
+    width:100%;
+    background-image: url("C:\Users\vpall\OneDrive\Desktop\ReactProj\payroll\public\home.jpg") ;
+    flex-direction: column;
+}
+.sidebar{
+    position: fixed;
+    top:10%;
+    height: 80%;
+    width: 10%;
+    padding: 10px; 
+    flex-direction: column;
+    background-color:greenyellow;
+}
+.body{
+    position: fixed;
+    left: 10%;
+    top:10%;
+    height: 80%; 
+    width: 90%;
+    overflow: auto;  
+    text-align:left; 
+}

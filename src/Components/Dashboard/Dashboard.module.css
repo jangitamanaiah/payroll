@@ -1,0 +1,59 @@
+.form{
+  position: fixed;
+    top:10%;
+    height: 80%;
+    width: 100%;
+    background-image: url("C:\Users\vpall\OneDrive\Desktop\ReactProj\payroll\public\home.jpg") ;
+    flex-direction: column;
+}
+.sidebar{
+  position: fixed;
+  top:10%;
+  height: 80%;
+  border: 2px solid blue;
+  width: 10%;
+  padding: 10px; 
+  flex-direction: columen;
+
+}
+.body{
+  position: fixed;
+  left: 10%;
+  top:10%;
+  height: 80%; 
+  width: 90%;
+  overflow: auto;  
+  text-align: center;
+  color: chartreuse; 
+}
+
+@media screen and (max-width: 1088px) and (min-width: 320px){
+  .form{
+      position: fixed;
+      top:10%;
+      height: 80%;
+      width: 100%;
+      background-image: url("C:\Users\vpall\OneDrive\Desktop\ReactProj\payroll\public\home.jpg") ;
+      flex-direction: column;
+  }
+  .sidebar{
+    position: fixed;
+    top:10%;
+    height: 80%;
+    width: 100%;
+    border: 5px solid blue;
+    padding: 10px; 
+    flex-direction: column;
+  
+  }
+  .body{
+    position: fixed;
+    left: 10%;
+    top:10%;
+    height: 80%; 
+    width: 90%;
+    overflow: auto;  
+    text-align: center;
+    color: chartreuse; 
+  }
+}

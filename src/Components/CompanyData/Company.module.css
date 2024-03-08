@@ -1,0 +1,27 @@
+.arrange{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    top: 10%;
+    width: 100%;
+    background-image: url("C:\Users\vpall\OneDrive\Desktop\ReactProj\payroll\public\home.jpg") ;
+}
+.left{
+    position: fixed;
+    top: 10%;
+    border: 1px solid greenyellow;
+    height: 80%;
+    width: 10%;
+    padding: 10px;
+    background-color:coral
+}
+.body{
+    position: fixed;
+    left: 10%;
+    top:10%;
+    height: 80%; 
+    width: 90%;
+    overflow: auto;  
+    text-align:left; 
+    background-color:gray; 
+}
